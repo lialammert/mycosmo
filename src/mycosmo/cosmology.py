@@ -1,5 +1,6 @@
 import numpy as np
 
+from .constants import Mpc, G
 
 def hubble(redshift, cosmo_dict):
     hubble_const = cosmo_dict["H0"]
